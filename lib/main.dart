@@ -40,7 +40,7 @@ class WelcomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // Logo
+            
             Center(
               child: Image.asset(
                 'assets/images/bg2.png', 
@@ -49,7 +49,7 @@ class WelcomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            // Başlık
+            
             const Text(
               "Hoş Geldiniz!",
               style: TextStyle(
@@ -59,7 +59,7 @@ class WelcomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            // Alıntı Metin
+            
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.0),
               child: Text(
@@ -83,7 +83,7 @@ class WelcomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 40),
-            // Giriş Yap Butonu
+            
             ElevatedButton(
               onPressed: () {
                 Navigator.push(

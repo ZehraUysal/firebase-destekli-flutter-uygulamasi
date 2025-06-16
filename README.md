@@ -1,5 +1,3 @@
-# firebasedeneme
-
 A new Flutter project.
 
 ## Getting Started

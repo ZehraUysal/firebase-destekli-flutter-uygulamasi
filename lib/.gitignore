@@ -1,4 +1,3 @@
-# Flutter tarafından oluşturulan klasörleri dışla
 build/
 .dart_tool/
 .flutter-plugins
@@ -8,9 +7,9 @@ build/
 .idea/
 *.iml
 
-# Firebase dosyaları (asla GitHub'a yüklenmemeli!)
+
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
 
-# VS Code ayarlarını dışla
+
 .vscode/
